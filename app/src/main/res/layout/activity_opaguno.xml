@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".opaguno">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/gendut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="326dp"
+        android:layout_height="296dp"
+        android:layout_marginBottom="40dp"
+        android:text="SEOUL, KOMPAS.com - Pemimpin Korea Utara ( Korut) meminta agar Pemimpin Gereja Katolik Paus Fransiskus bersedia mengunjungi negaranya. Permintaan tersebut itu disampaikan Presiden Korea Selatan (Korsel) Moon Jae-in jelang kunjungannya ke sejumlah negara Eropa. Diwartakan AFP Selasa (9/10/2018), kunjungan Moon bakal berlangsung selama sembilan hari, dimulai pada Sabtu (13/10/2018) meliputi Perancis, Italia, serta Vatikan. Baca juga: Presiden Korsel: Kim Jong Un Bakal Bertemu Putin dan Xi Jinping Juru bicara kepresidenan Kim Eui-kyeom berujar, presiden berusia 65 tahun itu bakal berkunjung ke Vatikan pada 17-18 Oktober. "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
